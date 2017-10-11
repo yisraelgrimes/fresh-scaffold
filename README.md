@@ -10,3 +10,5 @@ These starter templates can be used on their own but they are set up to be used 
 ## Changelog
 - v0.0.1
 	- Added initial files
+- v0.0.2
+	- Moved puglint template from `./rootfiles` to `./__rsc__`
