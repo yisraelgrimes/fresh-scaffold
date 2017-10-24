@@ -2,12 +2,15 @@
 
 extends partials/_base
 
+block vars
+	- var bodyClass = 'home';
+
 block content
 
 	h1 WooooHoooo!
 
 	p.
-		Welcome to #{project}!!
+		Welcome to #{meta.title}!!
 	//- If you're not using gulp-data, This variable will not render.
 
 	h2 What's involved?
